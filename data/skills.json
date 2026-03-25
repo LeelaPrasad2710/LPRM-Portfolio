@@ -1,0 +1,62 @@
+[
+  {
+    "category": "Test Automation",
+    "color": "purple",
+    "icon": "🧪",
+    "skills": [
+      { "name": "Selenium WebDriver", "level": 95 },
+      { "name": "Playwright", "level": 92 },
+      { "name": "TestNG", "level": 90 },
+      { "name": "Cucumber BDD", "level": 88 },
+      { "name": "Page Object Model", "level": 95 }
+    ]
+  },
+  {
+    "category": "Programming",
+    "color": "teal",
+    "icon": "💻",
+    "skills": [
+      { "name": "Java", "level": 92 },
+      { "name": "Python", "level": 80 },
+      { "name": "JavaScript", "level": 75 },
+      { "name": "SQL", "level": 85 },
+      { "name": "Groovy", "level": 72 },
+      { "name": "VBA", "level": 78 }
+    ]
+  },
+  {
+    "category": "API & CI/CD",
+    "color": "amber",
+    "icon": "⚙️",
+    "skills": [
+      { "name": "Jenkins", "level": 85 },
+      { "name": "Git / GitHub", "level": 90 },
+      { "name": "Postman", "level": 88 },
+      { "name": "Insomnia", "level": 82 },
+      { "name": "DOMO", "level": 78 }
+    ]
+  },
+  {
+    "category": "AI & Emerging",
+    "color": "pink",
+    "icon": "🤖",
+    "skills": [
+      { "name": "MCP Server", "level": 80 },
+      { "name": "GenAI / LLM", "level": 75 },
+      { "name": "AI-Assisted Testing", "level": 85 },
+      { "name": "Prompt Engineering", "level": 80 }
+    ]
+  },
+  {
+    "category": "Data & Databases",
+    "color": "blue",
+    "icon": "🗄️",
+    "skills": [
+      { "name": "PostgreSQL", "level": 82 },
+      { "name": "MongoDB", "level": 78 },
+      { "name": "MySQL", "level": 80 },
+      { "name": "React", "level": 72 },
+      { "name": "Power BI", "level": 70 }
+    ]
+  }
+]

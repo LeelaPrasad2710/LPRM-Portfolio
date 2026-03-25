@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "period": "Dec 2024 – Dec 2025",
+    "role": "Automation Engineer / Data Analyst",
+    "company": "Target Corporation of India",
+    "location": "Bangalore, India",
+    "color": "purple",
+    "current": true,
+    "highlights": [
+      "Automated data ingestion pipelines using Python and Jira API → PostgreSQL, eliminating manual data handling",
+      "Built React + REST API dashboards, reducing manual reporting cycles by 70%",
+      "Designed DOMO dashboards using Magic ETL pipelines for business data visualization",
+      "Designed and executed AI chatbot evaluation framework across 7 quality dimensions",
+      "Validated NLP intent accuracy and cross-verified bot responses against live API and database records"
+    ]
+  },
+  {
+    "id": 2,
+    "period": "2021 – 2024",
+    "role": "Lead SDET / Automation Engineer",
+    "company": "Target Corporation of India",
+    "location": "Bangalore, India",
+    "color": "teal",
+    "current": false,
+    "highlights": [
+      "Architected Playwright framework for cross-browser testing (Chrome, Firefox, Edge)",
+      "Integrated AI-assisted test case generation via MCP server — reducing authoring time significantly",
+      "Built Selenium WebDriver automation in Java with TestNG across multiple releases",
+      "Implemented BDD automation with Cucumber + Gherkin aligned to business requirements",
+      "Built 40+ automation bots and 15+ VBA macros saving 60,000+ hours annually",
+      "🏆 Leader's Choice Award"
+    ]
+  },
+  {
+    "id": 3,
+    "period": "2019 – 2021",
+    "role": "Senior Automation Specialist",
+    "company": "Target Corporation of India",
+    "location": "Bangalore, India",
+    "color": "amber",
+    "current": false,
+    "highlights": [
+      "Introduced automation-driven process improvements across finance and operations",
+      "Performed reconciliation and operational analysis, improving process accuracy",
+      "Identified efficiency improvements reducing repetitive manual operations"
+    ]
+  },
+  {
+    "id": 4,
+    "period": "2018 – 2019",
+    "role": "General Accounting Associate",
+    "company": "Accenture",
+    "location": "Bangalore, India",
+    "color": "blue",
+    "current": false,
+    "highlights": [
+      "Managed SAP invoice processing and reconciliation workflows",
+      "Handled financial compliance tasks and audit support"
+    ]
+  }
+]

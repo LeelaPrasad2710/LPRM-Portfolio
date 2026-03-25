@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Custom properties ─────────────────────────────── */
+:root {
+  --accent-purple: #7c6fff;
+  --accent-teal: #00d4aa;
+  --accent-amber: #f59e0b;
+  --accent-pink: #f472b6;
+  --grad: linear-gradient(135deg, #7c6fff 0%, #00d4aa 100%);
+  --grad-text: linear-gradient(135deg, #7c6fff 0%, #00d4aa 100%);
+}
+
+/* ── Scrollbar ─────────────────────────────────────── */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(124, 111, 255, 0.35); border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(124, 111, 255, 0.6); }
+
+/* ── Smooth scroll ─────────────────────────────────── */
+html { scroll-behavior: smooth; }
+
+/* ── Gradient text utility ─────────────────────────── */
+.gradient-text {
+  background: var(--grad-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── Gradient border card ──────────────────────────── */
+.gradient-border {
+  position: relative;
+  background: var(--grad);
+  border-radius: inherit;
+  padding: 1px;
+}
+.gradient-border-inner {
+  border-radius: inherit;
+  background: var(--card-bg, #161927);
+  height: 100%;
+  width: 100%;
+}
+
+/* ── Section padding ───────────────────────────────── */
+.section-pad { padding: 80px 0; }
+
+/* ── Glow effects ──────────────────────────────────── */
+.glow-purple {
+  box-shadow: 0 0 40px rgba(124, 111, 255, 0.15), 0 0 80px rgba(124, 111, 255, 0.08);
+}
+.glow-teal {
+  box-shadow: 0 0 40px rgba(0, 212, 170, 0.12), 0 0 80px rgba(0, 212, 170, 0.06);
+}
+
+/* ── Noise texture overlay ─────────────────────────── */
+.noise::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+  opacity: 0.4;
+  border-radius: inherit;
+}
+
+/* ── Animated gradient background ─────────────────── */
+.animated-bg {
+  background: linear-gradient(-45deg, #0a0c12, #0f1220, #0d1018, #0a0e1a);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+}
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* ── Orb blobs ─────────────────────────────────────── */
+.orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  pointer-events: none;
+}
+
+/* ── Skill progress bar ────────────────────────────── */
+.skill-bar-fill {
+  transition: width 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ── Timeline connector ────────────────────────────── */
+.timeline-line {
+  background: linear-gradient(to bottom, var(--accent-purple), var(--accent-teal));
+}
+
+/* ── Card hover lift ───────────────────────────────── */
+.card-hover {
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+}
+
+/* ── Tag styles ────────────────────────────────────── */
+.tag-purple { background: rgba(124,111,255,0.1); color: #a89cf7; border: 1px solid rgba(124,111,255,0.25); }
+.tag-teal   { background: rgba(0,212,170,0.08);  color: #00c49a; border: 1px solid rgba(0,212,170,0.2); }
+.tag-amber  { background: rgba(245,158,11,0.08); color: #f59e0b; border: 1px solid rgba(245,158,11,0.2); }
+.tag-pink   { background: rgba(244,114,182,0.08);color: #f472b6; border: 1px solid rgba(244,114,182,0.2); }
+.tag-blue   { background: rgba(59,130,246,0.08); color: #60a5fa; border: 1px solid rgba(59,130,246,0.2); }
+
+/* ── Light mode overrides ──────────────────────────── */
+.light-card { background: #ffffff; }
+.dark-card  { background: #161927; }

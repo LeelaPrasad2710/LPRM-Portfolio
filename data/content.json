@@ -1,0 +1,152 @@
+{
+  "impact": [
+    {
+      "number": "60,000+",
+      "raw": 60000,
+      "suffix": "+",
+      "label": "Hours Automated Annually",
+      "description": "Through 40+ bots and 15+ VBA macros across enterprise workflows",
+      "award": "Leader's Choice Award"
+    },
+    {
+      "number": "70%",
+      "raw": 70,
+      "suffix": "%",
+      "label": "Reporting Cycle Reduction",
+      "description": "Via React dashboards and REST API integrations at Target",
+      "award": "TII Drive Award"
+    },
+    {
+      "number": "40+",
+      "raw": 40,
+      "suffix": "+",
+      "label": "Automation Bots Built",
+      "description": "Operational bots automating finance and operations workflows",
+      "award": null
+    },
+    {
+      "number": "4+",
+      "raw": 4,
+      "suffix": "+",
+      "label": "Years of SDET Experience",
+      "description": "Enterprise-scale test automation and quality engineering",
+      "award": null
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Leader's Choice Award",
+      "issuer": "Target Corporation of India",
+      "year": "2024",
+      "icon": "🏆",
+      "color": "amber",
+      "description": "For automating operational processes saving 60,000+ hours annually"
+    },
+    {
+      "name": "TII Drive Award",
+      "issuer": "Target Corporation of India",
+      "year": "2024",
+      "icon": "🏆",
+      "color": "amber",
+      "description": "Chatbot integration into internal enterprise platforms"
+    },
+    {
+      "name": "TII Drive Award",
+      "issuer": "Target Corporation of India",
+      "year": "2023",
+      "icon": "🏆",
+      "color": "amber",
+      "description": "Developed automated Python data pipelines for analytics systems"
+    },
+    {
+      "name": "UPTECH Program",
+      "issuer": "Target Corporation",
+      "year": "2023",
+      "icon": "🎓",
+      "color": "purple",
+      "description": "Advanced technology and leadership development program"
+    },
+    {
+      "name": "GenAI & LLM Fundamentals",
+      "issuer": "Target Corporation",
+      "year": "2023",
+      "icon": "🤖",
+      "color": "teal",
+      "description": "Generative AI, prompt engineering, and LLM application fundamentals"
+    }
+  ],
+  "blog": [
+    {
+      "id": 1,
+      "tag": "AI Testing",
+      "title": "How I Used MCP Server to Auto-Generate Playwright Test Cases",
+      "excerpt": "A practical walkthrough of integrating MCP server into a QA workflow — feeding user stories directly to an LLM and getting executable Playwright specs back.",
+      "readTime": "5 min read",
+      "date": "Dec 2024",
+      "color": "purple"
+    },
+    {
+      "id": 2,
+      "tag": "QA Framework",
+      "title": "Building an AI Chatbot Evaluation Framework: 7 Quality Dimensions",
+      "excerpt": "How I designed a structured testing methodology for an internal self-service bot, covering intent classification, response accuracy, context handling, and compliance.",
+      "readTime": "8 min read",
+      "date": "Nov 2024",
+      "color": "teal"
+    },
+    {
+      "id": 3,
+      "tag": "Automation",
+      "title": "Page Object Model at Scale — Lessons from Enterprise Selenium",
+      "excerpt": "After building and maintaining POM frameworks across 3 years of enterprise projects, here's what I'd do differently and what genuinely scales.",
+      "readTime": "6 min read",
+      "date": "Oct 2024",
+      "color": "amber"
+    },
+    {
+      "id": 4,
+      "tag": "CI/CD",
+      "title": "Scheduled Nightly Regressions with Jenkins + Git — A Practical Setup",
+      "excerpt": "Step-by-step guide to wiring up a Jenkins pipeline that runs your full Selenium/Playwright suite every night and sends a Slack alert on failures.",
+      "readTime": "7 min read",
+      "date": "Sep 2024",
+      "color": "blue"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Leelaprasad's automation frameworks fundamentally changed how our team approached regression testing. The time savings across the board were extraordinary — his work had a direct measurable impact on our release velocity.",
+      "name": "Senior Engineering Lead",
+      "company": "Target Corporation of India",
+      "initials": "EL"
+    },
+    {
+      "quote": "His AI chatbot evaluation framework gave us the confidence to deploy our internal self-service bot at scale. The structured quality methodology he built was genuinely impressive.",
+      "name": "Product Manager",
+      "company": "Target Corporation of India",
+      "initials": "PM"
+    },
+    {
+      "quote": "What stands out about Leelaprasad is his ability to bridge QA and data engineering. He doesn't just test — he builds systems that make testing obsolete for entire classes of problems.",
+      "name": "Data Engineering Lead",
+      "company": "Target Corporation of India",
+      "initials": "DL"
+    }
+  ],
+  "aiUsage": [
+    {
+      "tool": "MCP Server",
+      "useCase": "Test Case Generation",
+      "prompt": "Analyze this user story and generate Playwright test cases for the login flow, including edge cases for invalid credentials, session timeout, and CSRF protection.",
+      "output": "Generated 12 test cases covering: happy path login, invalid email format, wrong password (3 attempts), locked account, session expiry redirect, remember-me token, CSRF token missing, and concurrent session handling. Saved ~4 hours of manual authoring per feature.",
+      "color": "purple"
+    },
+    {
+      "tool": "GenAI / LLM",
+      "useCase": "Chatbot Intent Testing",
+      "prompt": "Given these 5 semantically similar queries about leave balance, identify which ones the chatbot misclassifies and suggest edge cases to add to the test suite.",
+      "output": "Detected 2 misclassifications in casual phrasing ('how many days off do I have left?' vs 'remaining PTO'). Suggested 8 additional edge cases including negative phrasing, multi-language variants, and typo tolerance tests.",
+      "color": "teal"
+    }
+  ]
+}

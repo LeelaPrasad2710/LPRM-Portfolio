@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Trip Expenses Tracker",
+    "emoji": "🗺",
+    "description": "A full-stack group trip expense manager — track who paid what, split costs fairly, and visualise balances in real time. Built with React and PostgreSQL, deployed on Vercel for instant access on any device.",
+    "tech": ["React", "PostgreSQL", "Vercel", "REST API"],
+    "github": "https://github.com/LeelaPrasad2710",
+    "live": "https://trip-expenses-three.vercel.app/",
+    "video": "",
+    "status": "live",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Borewell Invoice Generator",
+    "emoji": "🧾",
+    "description": "Custom invoice generation tool for Vinayaka Borewells — create, preview, and print professional invoices with dynamic line items, auto tax calculation, and one-click PDF export. Zero backend required.",
+    "tech": ["React", "PDF Export", "Vercel"],
+    "github": "https://github.com/LeelaPrasad2710",
+    "live": "https://borewell-invoice-shakeel.vercel.app/",
+    "video": "",
+    "status": "live",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "RubberFlow Blueprint",
+    "emoji": "🔧",
+    "description": "An open-source workflow automation blueprint for manufacturing QA — modelling operational flows, test triggers, and process monitoring pipelines. Architectural patterns for quality engineering in industrial domains.",
+    "tech": ["React", "Workflow Automation", "Open Source"],
+    "github": "https://github.com/LeelaPrasad2710/rubberflow-blueprint",
+    "live": "",
+    "video": "",
+    "status": "in-dev",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "title": "Ryder Data Processor",
+    "emoji": "⚡",
+    "description": "End-to-end enterprise data processing system in Java using Kafka for real-time streaming and MongoDB for storage, surfaced through DOMO dashboards for business reporting and analytics.",
+    "tech": ["Java", "Kafka", "MongoDB", "DOMO"],
+    "github": "",
+    "live": "",
+    "video": "",
+    "status": "enterprise",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "title": "JPRA Workflow Automation",
+    "emoji": "🤖",
+    "description": "Automated manual operational workflows using Java and Groovy scripts, significantly increasing process efficiency and reducing human error across finance and operations teams.",
+    "tech": ["Java", "Groovy", "Automation"],
+    "github": "",
+    "live": "",
+    "video": "",
+    "status": "enterprise",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "title": "AI Chatbot Evaluation Framework",
+    "emoji": "🧠",
+    "description": "Structured evaluation framework for an internal AI-powered employee self-service chatbot at Target. Assessed 7 quality dimensions: Intent Classification, Response Accuracy, Relevance, Actionability, Context Handling, Risk & Compliance, and Consistency.",
+    "tech": ["AI Testing", "NLP", "Python", "API Testing"],
+    "github": "",
+    "live": "",
+    "video": "",
+    "status": "enterprise",
+    "featured": true
+  }
+]
