@@ -17,7 +17,7 @@
     "icon": "💻",
     "skills": [
       { "name": "Java", "level": 92 },
-      { "name": "Python", "level": 80 },
+
       { "name": "JavaScript", "level": 75 },
       { "name": "SQL", "level": 85 },
       { "name": "Groovy", "level": 72 },

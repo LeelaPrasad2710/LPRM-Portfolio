@@ -5,6 +5,13 @@ import { motion, useInView } from 'framer-motion'
 
 const contactLinks = [
   {
+    icon: '📞',
+    label: 'Phone',
+    value: '+91 89515 13146',
+    href: 'tel:+918951513146',
+    color: 'hover:border-accent-teal/40',
+  },
+  {
     icon: '✉️',
     label: 'Email',
     value: 'LeelaPrasad2710@gmail.com',

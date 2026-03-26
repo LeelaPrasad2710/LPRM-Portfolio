@@ -99,7 +99,7 @@ export default function Navbar() {
             {/* Resume CTA */}
             <a
               href="/resume.pdf"
-              download
+              download="Leelaprasad_SDET_Resume.pdf"
               className="hidden md:flex items-center gap-1.5 px-4 py-2 rounded-xl text-sm font-medium text-white
                          bg-gradient-to-r from-accent-purple to-accent-teal
                          hover:opacity-90 transition-opacity duration-200"
@@ -145,7 +145,7 @@ export default function Navbar() {
               ))}
               <a
                 href="/resume.pdf"
-                download
+                download="Leelaprasad_SDET_Resume.pdf"
                 className="mt-2 px-4 py-2.5 rounded-lg text-sm font-medium text-white text-center
                            bg-gradient-to-r from-accent-purple to-accent-teal"
               >

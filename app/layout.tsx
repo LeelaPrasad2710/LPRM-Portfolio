@@ -6,7 +6,7 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'Leelaprasad R M — SDET & Automation Engineer',
-  description: 'Portfolio of Leelaprasad R M — 4+ years building scalable test automation frameworks, AI-assisted testing, and data pipelines. Based in Bangalore, India.',
+  description: 'Portfolio of Leelaprasad R M — 5+ years building scalable test automation frameworks, AI-assisted testing, and data pipelines. Based in Bangalore, India.',
   keywords: ['SDET', 'Selenium', 'Playwright', 'Automation Engineer', 'QA', 'Java', 'Bangalore'],
   authors: [{ name: 'Leelaprasad R M' }],
   openGraph: {

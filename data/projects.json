@@ -7,7 +7,7 @@
     "tech": ["React", "PostgreSQL", "Vercel", "REST API"],
     "github": "https://github.com/LeelaPrasad2710",
     "live": "https://trip-expenses-three.vercel.app/",
-    "video": "",
+    "video": "/videos/demo.mp4",
     "status": "live",
     "featured": true
   },

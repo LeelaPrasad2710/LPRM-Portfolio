@@ -10,7 +10,7 @@ const fadeUp = (delay = 0) => ({
 })
 
 const stats = [
-  { num: '4+',    label: 'Years Experience' },
+  { num: '5+',    label: 'Years Experience' },
   { num: '60K+',  label: 'Hours Automated' },
   { num: '40+',   label: 'Bots Built' },
   { num: '70%',   label: 'Reporting Reduction' },
@@ -89,7 +89,7 @@ export default function Hero() {
           </a>
           <a
             href="/resume.pdf"
-            download
+            download="resume.pdf"
             className="px-6 py-3 rounded-xl text-sm font-medium
                        bg-white dark:bg-dark-card text-gray-800 dark:text-gray-200
                        border border-black/8 dark:border-white/10

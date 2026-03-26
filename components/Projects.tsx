@@ -121,15 +121,26 @@ function ProjectCard({ project, index }: { project: typeof projectsData[0], inde
               initial={{ scale: 0.9 }}
               animate={{ scale: 1 }}
               exit={{ scale: 0.9 }}
-              className="relative w-full max-w-3xl aspect-video rounded-2xl overflow-hidden"
+              className="relative w-full max-w-3xl aspect-video rounded-2xl overflow-hidden bg-black"
               onClick={e => e.stopPropagation()}
             >
-              <iframe
-                src={project.video}
-                className="w-full h-full"
-                allow="autoplay; fullscreen"
-                allowFullScreen
-              />
+              {/* Local MP4 / WebM — any path not starting with http */}
+              {!project.video.startsWith('http') ? (
+                <video
+                  src={project.video}
+                  className="w-full h-full"
+                  controls
+                  autoPlay
+                  playsInline
+                />
+              ) : (
+                <iframe
+                  src={project.video}
+                  className="w-full h-full"
+                  allow="autoplay; fullscreen"
+                  allowFullScreen
+                />
+              )}
               <button
                 onClick={() => setVideoOpen(false)}
                 className="absolute top-3 right-3 w-9 h-9 bg-black/60 text-white rounded-xl
