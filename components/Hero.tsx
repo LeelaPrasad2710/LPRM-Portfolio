@@ -89,7 +89,7 @@ export default function Hero() {
           </a>
           <a
             href="/resume.pdf"
-            download="resume.pdf"
+            download="LEELAPRASAD_SDET_resume.pdf"
             className="px-6 py-3 rounded-xl text-sm font-medium
                        bg-white dark:bg-dark-card text-gray-800 dark:text-gray-200
                        border border-black/8 dark:border-white/10
