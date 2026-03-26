@@ -8,7 +8,9 @@
       { "name": "Playwright", "level": 92 },
       { "name": "TestNG", "level": 90 },
       { "name": "Cucumber BDD", "level": 88 },
-      { "name": "Page Object Model", "level": 95 }
+      { "name": "Page Object Model", "level": 95 },
+      { "name": "Extent Reports", "level": 90 },
+      { "name": "Log4j", "level": 90 }
     ]
   },
   {
@@ -17,7 +19,6 @@
     "icon": "💻",
     "skills": [
       { "name": "Java", "level": 92 },
-
       { "name": "JavaScript", "level": 75 },
       { "name": "SQL", "level": 85 },
       { "name": "Groovy", "level": 72 },
@@ -30,9 +31,10 @@
     "icon": "⚙️",
     "skills": [
       { "name": "Jenkins", "level": 85 },
-      { "name": "Git / GitHub", "level": 90 },
+      { "name": "Git / GitHub", "level": 95 },
+      { "name": "REST Assured", "level": 90 },
       { "name": "Postman", "level": 88 },
-      { "name": "Insomnia", "level": 82 },
+      { "name": "Insomnia", "level": 70 },
       { "name": "DOMO", "level": 78 }
     ]
   },
