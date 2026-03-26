@@ -56,7 +56,7 @@ export default function Hero() {
           className="font-display font-800 text-5xl md:text-7xl leading-[1.08] tracking-tight mb-4"
         >
           Hi, I'm{' '}
-          <span className="gradient-text">Leelaprasad</span>
+          <span className="gradient-text">LeelaPrasad RM</span>
         </motion.h1>
 
         {/* Role */}
